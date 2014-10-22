@@ -1,99 +1,143 @@
 [submodule "bundle/vim-addon-mw-utils"]
 	path = bundle/vim-addon-mw-utils
 	url = https://github.com/MarcWeber/vim-addon-mw-utils
+	ignore = untracked
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+	ignore = untracked
 [submodule "bundle/VimClojure"]
 	path = bundle/VimClojure
 	url = https://github.com/vim-scripts/VimClojure.git
+	ignore = untracked
 [submodule "bundle/vim-handlebars"]
 	path = bundle/vim-handlebars
 	url = https://github.com/nono/vim-handlebars
+	ignore = untracked
 [submodule "bundle/surround.vim"]
 	path = bundle/surround.vim
 	url = https://github.com/vim-scripts/surround.vim.git
+	ignore = untracked
 [submodule "bundle/Smart-Home-Key"]
 	path = bundle/Smart-Home-Key
 	url = https://github.com/vim-scripts/Smart-Home-Key.git
+	ignore = untracked
 [submodule "bundle/tComment"]
 	path = bundle/tComment
 	url = git://github.com/vim-scripts/tComment.git
+	ignore = untracked
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim
+	ignore = untracked
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
 	url = https://github.com/vim-scripts/vim-coffee-script.git
+	ignore = untracked
 [submodule "bundle/vim-snipmate"]
 	path = bundle/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
+	ignore = untracked
 [submodule "bundle/unimpaired.vim"]
 	path = bundle/unimpaired.vim
 	url = https://github.com/vim-scripts/unimpaired.vim.git
+	ignore = untracked
 [submodule "bundle/snipmate-snippets"]
 	path = bundle/snipmate-snippets
-	url = https://github.com/tomasv/snipmate-snippets
+	url = https://github.com/emjei/snipmate-snippets
 [submodule "bundle/vim-octopress"]
 	path = bundle/vim-octopress
 	url = https://github.com/tangledhelix/vim-octopress.git
+	ignore = untracked
 [submodule "bundle/ZenCoding.vim"]
 	path = bundle/ZenCoding.vim
 	url = https://github.com/vim-scripts/ZenCoding.vim.git
+	ignore = untracked
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim
+	ignore = untracked
 [submodule "bundle/matchit.zip"]
 	path = bundle/matchit.zip
 	url = https://github.com/vim-scripts/matchit.zip.git
+	ignore = untracked
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
+	ignore = untracked
 [submodule "bundle/The-NERD-tree"]
 	path = bundle/The-NERD-tree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
+	ignore = untracked
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive
+	ignore = untracked
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/vim-colorschemes
 	url = https://github.com/flazz/vim-colorschemes
+	ignore = untracked
 [submodule "bundle/a"]
 	path = bundle/a
 	url = https://github.com/vim-scripts/a.vim
+	ignore = untracked
 [submodule "bundle/vim-scmdiff"]
 	path = bundle/vim-scmdiff
 	url = https://github.com/tomasv/vim-scmdiff
+	ignore = untracked
 [submodule "bundle/vim-jst"]
 	path = bundle/vim-jst
 	url = https://github.com/briancollins/vim-jst
+	ignore = untracked
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
+	ignore = untracked
 [submodule "bundle/vim-trailing-whitespace"]
 	path = bundle/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
+	ignore = untracked
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
+	ignore = untracked
 [submodule "bundle/ag.vim"]
 	path = bundle/ag.vim
 	url = https://github.com/rking/ag.vim
+	ignore = untracked
 [submodule "bundle/vim-ruby-refactoring"]
 	path = bundle/vim-ruby-refactoring
 	url = https://github.com/ecomba/vim-ruby-refactoring
+	ignore = untracked
 [submodule "bundle/html5.vim"]
 	path = bundle/html5.vim
 	url = https://github.com/othree/html5.vim
+	ignore = untracked
 [submodule "bundle/StripWhiteSpaces"]
 	path = bundle/StripWhiteSpaces
 	url = https://github.com/gagoar/StripWhiteSpaces
+	ignore = untracked
 [submodule "bundle/ruby_bashrockets.vim"]
 	path = bundle/ruby_bashrockets.vim
 	url = https://github.com/danchoi/ruby_bashrockets.vim
+	ignore = untracked
 [submodule "bundle/vim-emblem"]
 	path = bundle/vim-emblem
 	url = https://github.com/heartsentwined/vim-emblem
+	ignore = untracked
+[submodule "bundle/plantuml-syntax"]
+	path = bundle/plantuml-syntax
+	url = https://github.com/aklt/plantuml-syntax
+	ignore = untracked
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+	ignore = untracked
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise
+	ignore = untracked
 [submodule "bundle/vim-rspec"]
 	path = bundle/vim-rspec
 	url = https://github.com/thoughtbot/vim-rspec
+	ignore = untracked
