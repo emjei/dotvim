@@ -141,3 +141,7 @@
 	path = bundle/vim-rspec
 	url = https://github.com/thoughtbot/vim-rspec
 	ignore = untracked
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose
+	ignore = untracked
