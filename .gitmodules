@@ -149,3 +149,7 @@
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala
 	ignore = untracked
+[submodule "bundle/EasyGrep"]
+	path = bundle/EasyGrep
+	url = https://github.com/vim-scripts/EasyGrep
+	ignore = untracked
