@@ -145,3 +145,7 @@
 	path = bundle/vim-autoclose
 	url = https://github.com/Townk/vim-autoclose
 	ignore = untracked
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
+	ignore = untracked
