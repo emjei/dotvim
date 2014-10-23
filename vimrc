@@ -44,6 +44,10 @@ let mapleader=','
 noremap ; :
 noremap Y y$
 
+" VIM code area separator
+highlight ColorColumn ctermbg=235 guibg=#2c2d27
+let &colorcolumn=join(range(81,999),",")
+
 " Custom highlighting
 hi link TagListFileName Normal
 hi Pmenu ctermbg=84
@@ -157,7 +161,7 @@ au BufEnter *.scala setl formatprg=/home/emjei/Atsiuntimai/scalariform.jar\ --st
 " C/C++ settings
 autocmd Filetype c,cpp,css,scss setlocal expandtab shiftwidth=2 softtabstop=2
 
-"Habit breaker
+" Habit breaker
 inoremap <Down> <NOP>
 inoremap <LEFT> <NOP>
 inoremap <Right> <NOP>
@@ -169,3 +173,7 @@ noremap <Up> <NOP>
 
 " PlantUML executable path
 let g:plantuml_executable_script='java -jar $HOME/Darbastalis/plantuml.jar -o .'
+
+" Airline settings
+let g:airline_powerline_fonts=1
+let g:airline_theme="tomorrow"
