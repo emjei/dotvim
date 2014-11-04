@@ -85,7 +85,8 @@ nnoremap <Leader>cd :cd %:p:h<CR>
 map <Leader>t :call RunCurrentSpecFile()<CR>
 map <Leader>rs :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
-let g:rspec_command = "!rspec {spec}"
+" let g:rspec_command = "!rspec {spec}"
+let g:rspec_command = "!zeus rspec {spec}"
 
 " smart home key settings
 map <silent> <Home> :SmartHomeKey<CR>
@@ -176,4 +177,6 @@ let g:plantuml_executable_script='java -jar $HOME/Darbastalis/plantuml.jar -o .'
 
 " Airline settings
 let g:airline_powerline_fonts=1
+let g:airline_left_sep=''
+let g:airline_right_sep=''
 let g:airline_theme="tomorrow"

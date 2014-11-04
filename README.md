@@ -1,8 +1,8 @@
 Installation:
 
-    git clone git://github.com/emjei/dotvim.git ~/.vim
+    git clone https://github.com/emjei/dotvim.git ~/.vim
 
-Create symlinks:
+Create symlinks (not required in newer VIM versions):
 
     ln -s ~/.vim/vimrc ~/.vimrc
     ln -s ~/.vim/gvimrc ~/.gvimrc
