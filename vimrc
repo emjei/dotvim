@@ -185,3 +185,6 @@ let g:airline_theme="tomorrow"
 
 " Syntastic settings
 let g:syntastic_ruby_mri_exec = 'ruby'
+
+" I18n settings
+vmap <Leader>z :call I18nTranslateString()<CR>

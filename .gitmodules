@@ -161,3 +161,7 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = untracked
+[submodule "bundle/vim-i18n"]
+	path = bundle/vim-i18n
+	url = https://github.com/stefanoverna/vim-i18n
+	ignore = untracked
