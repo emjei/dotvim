@@ -156,6 +156,9 @@ autocmd FileType ruby,eruby setlocal expandtab shiftwidth=2 tabstop=2 softtabsto
 " JST settings
 autocmd FileType jst setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
+" HTML settings
+autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+
 " SCALA settings
 au BufEnter *.scala setl formatprg=/home/emjei/Atsiuntimai/scalariform.jar\ --stdin\ --stdout
 
