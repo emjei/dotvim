@@ -39,6 +39,8 @@ set noea
 set mouse=a " might not work on most systems
 set ttymouse=xterm2 " a working variant of the previous command
 set wildignore=*.png,*.jpg,*.xcf,*.wav,log/*,tmp/*,coverage/*
+set clipboard=unnamed "needed to force Vim in using OS X clipboard
+set backspace=eol,indent,start "needed for OS X so backpace would work as delete in insert mode
 
 let mapleader=','
 noremap ; :
@@ -186,3 +188,6 @@ let g:airline_theme="tomorrow"
 
 " Syntastic settings
 let g:syntastic_ruby_mri_exec = 'ruby'
+
+" I18n settings
+vmap <Leader>z :call I18nTranslateString()<CR>
