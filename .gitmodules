@@ -129,10 +129,6 @@
 	path = bundle/plantuml-syntax
 	url = https://github.com/aklt/plantuml-syntax
 	ignore = untracked
-[submodule "bundle/vim-airline"]
-	path = bundle/vim-airline
-	url = https://github.com/bling/vim-airline
-	ignore = untracked
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise
