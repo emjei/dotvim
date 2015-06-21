@@ -77,10 +77,6 @@
 	path = bundle/ag.vim
 	url = https://github.com/rking/ag.vim
 	ignore = untracked
-[submodule "bundle/html5.vim"]
-	path = bundle/html5.vim
-	url = https://github.com/othree/html5.vim
-	ignore = untracked
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise
@@ -96,10 +92,6 @@
 [submodule "bundle/EasyGrep"]
 	path = bundle/EasyGrep
 	url = https://github.com/vim-scripts/EasyGrep
-	ignore = untracked
-[submodule "bundle/editorconfig-vim"]
-	path = bundle/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim
 	ignore = untracked
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
