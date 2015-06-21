@@ -11,3 +11,11 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
     cd ~/.vim
     git submodule update --init
+
+Removing a unneeded submodule:
+
+    cd ~/.vim
+	git submodule deinit bundle/<submodule_name>
+	git rm --cached bundle/<submodule_name>
+
+    Also remove the `bundle/<submodule_name>` entry in .gitmodules file.
