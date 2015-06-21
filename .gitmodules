@@ -18,10 +18,6 @@
 	path = bundle/VimClojure
 	url = https://github.com/vim-scripts/VimClojure.git
 	ignore = untracked
-[submodule "bundle/vim-handlebars"]
-	path = bundle/vim-handlebars
-	url = https://github.com/nono/vim-handlebars
-	ignore = untracked
 [submodule "bundle/surround.vim"]
 	path = bundle/surround.vim
 	url = https://github.com/vim-scripts/surround.vim.git
