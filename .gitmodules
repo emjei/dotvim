@@ -17,9 +17,9 @@
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
 	ignore = untracked
-[submodule "bundle/surround.vim"]
-	path = bundle/surround.vim
-	url = https://github.com/vim-scripts/surround.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
 	ignore = untracked
 [submodule "bundle/tComment"]
 	path = bundle/tComment
