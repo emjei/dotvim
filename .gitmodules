@@ -33,10 +33,6 @@
 	path = bundle/vim-coffee-script
 	url = https://github.com/vim-scripts/vim-coffee-script.git
 	ignore = untracked
-[submodule "bundle/vim-octopress"]
-	path = bundle/vim-octopress
-	url = https://github.com/tangledhelix/vim-octopress.git
-	ignore = untracked
 [submodule "bundle/ZenCoding.vim"]
 	path = bundle/ZenCoding.vim
 	url = https://github.com/vim-scripts/ZenCoding.vim.git
