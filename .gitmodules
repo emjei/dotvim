@@ -41,10 +41,6 @@
 	path = bundle/vim-slim
 	url = https://github.com/slim-template/vim-slim
 	ignore = untracked
-[submodule "bundle/matchit.zip"]
-	path = bundle/matchit.zip
-	url = https://github.com/vim-scripts/matchit.zip.git
-	ignore = untracked
 [submodule "bundle/The-NERD-tree"]
 	path = bundle/The-NERD-tree
 	url = https://github.com/vim-scripts/The-NERD-tree.git
