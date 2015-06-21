@@ -161,9 +161,6 @@ autocmd FileType jst setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 " HTML settings
 autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
-" SCALA settings
-au BufEnter *.scala setl formatprg=/home/emjei/Atsiuntimai/scalariform.jar\ --stdin\ --stdout
-
 " C/C++ settings
 autocmd Filetype c,cpp,css,scss setlocal expandtab shiftwidth=2 softtabstop=2
 
@@ -176,9 +173,6 @@ noremap <Down> <NOP>
 noremap <LEFT> <NOP>
 noremap <Right> <NOP>
 noremap <Up> <NOP>
-
-" PlantUML executable path
-let g:plantuml_executable_script='java -jar $HOME/Darbastalis/plantuml.jar -o .'
 
 " Syntastic settings
 let g:syntastic_ruby_mri_exec = 'ruby'
