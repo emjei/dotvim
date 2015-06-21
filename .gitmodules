@@ -89,10 +89,6 @@
 	path = bundle/StripWhiteSpaces
 	url = https://github.com/gagoar/StripWhiteSpaces
 	ignore = untracked
-[submodule "bundle/ruby_bashrockets.vim"]
-	path = bundle/ruby_bashrockets.vim
-	url = https://github.com/danchoi/ruby_bashrockets.vim
-	ignore = untracked
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise
