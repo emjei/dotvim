@@ -101,10 +101,6 @@
 	path = bundle/vim-emblem
 	url = https://github.com/heartsentwined/vim-emblem
 	ignore = untracked
-[submodule "bundle/plantuml-syntax"]
-	path = bundle/plantuml-syntax
-	url = https://github.com/aklt/plantuml-syntax
-	ignore = untracked
 [submodule "bundle/vim-endwise"]
 	path = bundle/vim-endwise
 	url = https://github.com/tpope/vim-endwise
