@@ -10,6 +10,9 @@
 	path = bundle/vim-snipmate
 	url = https://github.com/garbas/vim-snipmate.git
 	ignore = untracked
+[submodule "bundle/snipmate-snippets"]
+	path = bundle/snipmate-snippets
+	url = https://github.com/emjei/snipmate-snippets
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
@@ -30,9 +33,6 @@
 	path = bundle/vim-coffee-script
 	url = https://github.com/vim-scripts/vim-coffee-script.git
 	ignore = untracked
-[submodule "bundle/snipmate-snippets"]
-	path = bundle/snipmate-snippets
-	url = https://github.com/emjei/snipmate-snippets
 [submodule "bundle/vim-octopress"]
 	path = bundle/vim-octopress
 	url = https://github.com/tangledhelix/vim-octopress.git
