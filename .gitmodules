@@ -18,10 +18,6 @@
 	path = bundle/surround.vim
 	url = https://github.com/vim-scripts/surround.vim.git
 	ignore = untracked
-[submodule "bundle/Smart-Home-Key"]
-	path = bundle/Smart-Home-Key
-	url = https://github.com/vim-scripts/Smart-Home-Key.git
-	ignore = untracked
 [submodule "bundle/tComment"]
 	path = bundle/tComment
 	url = git://github.com/vim-scripts/tComment.git
