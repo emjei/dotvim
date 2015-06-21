@@ -57,10 +57,6 @@
 	path = bundle/a
 	url = https://github.com/vim-scripts/a.vim
 	ignore = untracked
-[submodule "bundle/vim-scmdiff"]
-	path = bundle/vim-scmdiff
-	url = https://github.com/tomasv/vim-scmdiff
-	ignore = untracked
 [submodule "bundle/vim-jst"]
 	path = bundle/vim-jst
 	url = https://github.com/briancollins/vim-jst
