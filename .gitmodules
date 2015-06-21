@@ -31,11 +31,11 @@
 	ignore = untracked
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = https://github.com/vim-scripts/vim-coffee-script.git
+	url = https://github.com/kchmck/vim-coffee-script.git
 	ignore = untracked
-[submodule "bundle/ZenCoding.vim"]
-	path = bundle/ZenCoding.vim
-	url = https://github.com/vim-scripts/ZenCoding.vim.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
 	ignore = untracked
 [submodule "bundle/vim-slim"]
 	path = bundle/vim-slim
