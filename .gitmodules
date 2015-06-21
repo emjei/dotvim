@@ -53,10 +53,6 @@
 	path = bundle/a
 	url = https://github.com/vim-scripts/a.vim
 	ignore = untracked
-[submodule "bundle/vim-jst"]
-	path = bundle/vim-jst
-	url = https://github.com/briancollins/vim-jst
-	ignore = untracked
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
 	url = git://github.com/tpope/vim-rails.git
