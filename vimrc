@@ -39,8 +39,8 @@ set noea
 set mouse=a " might not work on most systems
 set ttymouse=xterm2 " a working variant of the previous command
 set wildignore=*.png,*.jpg,*.xcf,*.wav,log/*,tmp/*,coverage/*
-set clipboard=unnamed "needed to force Vim in using OS X clipboard
-set backspace=eol,indent,start "needed for OS X so backpace would work as delete in insert mode
+set clipboard=unnamed " needed to force Vim in using OS X clipboard
+set backspace=eol,indent,start " needed for OS X so backpace would work as delete in insert mode
 
 let mapleader=','
 noremap ; :
@@ -77,11 +77,6 @@ nmap <Leader>vv :e ~/.vimrc<CR>
 nmap <Leader>vg :e ~/.gvimrc<CR>
 
 nnoremap <Leader>cd :cd %:p:h<CR>
-
-" make popup completion behave more humane
-" inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
-" inoremap <expr> <Down>     pumvisible() ? "\<C-n>" : "\<Down>"
-" inoremap <expr> <Up>       pumvisible() ? "\<C-p>" : "\<Up>"
 
 " ruby-rspec
 map <Leader>t :call RunCurrentSpecFile()<CR>
