@@ -4,7 +4,7 @@ Helptags
 syntax on
 filetype plugin indent on
 
-colorscheme railscasts
+colorscheme Tomorrow-Night-Bright
 hi clear SignColumn " for gitgutter, nicer looking sign column
 
 " VIM settings

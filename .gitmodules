@@ -109,3 +109,7 @@
 	path = bundle/vim-railscasts-theme
 	url = https://github.com/jpo/vim-railscasts-theme.git
 	ignore = untracked
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
+	ignore = untracked
