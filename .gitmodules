@@ -101,3 +101,7 @@
 	path = bundle/neonwave.vim
 	url = https://github.com/Sclarki/neonwave.vim.git
 	ignore = untracked
+[submodule "bundle/vim-tomorrow-theme"]
+	path = bundle/vim-tomorrow-theme
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git
+	ignore = untracked
