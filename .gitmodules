@@ -93,7 +93,3 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = untracked
-[submodule "bundle/railscasts-theme"]
-	path = bundle/railscasts-theme
-	url = git@github.com:jpo/vim-railscasts-theme.git
-	ignore = untracked
