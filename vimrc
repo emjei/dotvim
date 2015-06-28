@@ -174,3 +174,8 @@ let g:syntastic_ruby_mri_exec = 'ruby'
 
 " I18n settings
 vmap <Leader>z :call I18nTranslateString()<CR>
+
+" indentLine settings
+let g:indentLine_enabled = 0
+let g:indentLine_leadingSpaceChar = '.'
+let g:indentLine_leadingSpaceEnabled = 1
