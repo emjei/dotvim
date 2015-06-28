@@ -93,3 +93,7 @@
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
 	ignore = untracked
+[submodule "bundle/256-jungle"]
+	path = bundle/256-jungle
+	url = https://github.com/vim-scripts/256-jungle.git
+	ignore = untracked
