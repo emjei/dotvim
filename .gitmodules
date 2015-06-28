@@ -105,3 +105,7 @@
 	path = bundle/vim-tomorrow-theme
 	url = https://github.com/chriskempson/vim-tomorrow-theme.git
 	ignore = untracked
+[submodule "bundle/vim-railscasts-theme"]
+	path = bundle/vim-railscasts-theme
+	url = https://github.com/jpo/vim-railscasts-theme.git
+	ignore = untracked
