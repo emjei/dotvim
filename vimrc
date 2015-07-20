@@ -85,10 +85,6 @@ map <Leader>l :call RunLastSpec()<CR>
 " let g:rspec_command = "!rspec {spec}"
 let g:rspec_command = "!zeus rspec {spec}"
 
-" smart home key settings
-map <silent> <Home> :SmartHomeKey<CR>
-imap <silent> <Home> <C-O>:SmartHomeKey<CR>
-
 " ruby hash
 noremap <Leader>rh :Hashrockets<CR>
 noremap <Leader>rb :Bashrockets<CR>
