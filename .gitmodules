@@ -113,3 +113,6 @@
 	path = bundle/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
 	ignore = untracked
+[submodule "bundle/vim-solidity"]
+	path = bundle/vim-solidity
+	url = https://github.com/tomlion/vim-solidity.git
