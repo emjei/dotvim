@@ -21,7 +21,6 @@ set noswapfile
 set path+=./lib,./spec
 set shell=/bin/sh
 set swb=useopen
-set background=light
 set tags+=tags;/,./gems.tags;/,gems.tags;/
 set hidden
 set backupdir=~/.vim/backup//
