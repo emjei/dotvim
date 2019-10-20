@@ -95,7 +95,8 @@ let g:user_zen_leader_key = '<c-g>'
 nmap <Leader>o :CtrlP<CR>
 nmap <Leader>b :CtrlPBuffer<CR>
 let g:ctrlp_use_caching = 0
-let g:ctrlp_custom_ignore = { 'dir': '\v(tmp|coverage|log|public|bin)$' }
+let g:ctrlp_custom_ignore = 'tmp\|coverage\|log\|public\|bin\|node_modules\|DS_Store\|.git'
+let g:ctrlp_regexp = 1
 let g:ctrlp_reuse_window = 'NERD'
 let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<cr>', '<c-y>', '<2-LeftMouse>'],
@@ -153,6 +154,9 @@ autocmd FileType html setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
 
 " C/C++ settings
 autocmd Filetype c,cpp,css,scss setlocal expandtab shiftwidth=2 softtabstop=2
+
+" Rust settings
+autocmd Filetype rs setlocal expandtab shiftwidth=4 softtabstop=4
 
 " Habit breaker
 inoremap <Down> <NOP>
