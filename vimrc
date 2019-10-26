@@ -92,11 +92,11 @@ noremap <Leader>rb :Bashrockets<CR>
 let g:user_zen_leader_key = '<c-g>'
 
 " ctrlp settings
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 nmap <Leader>o :CtrlP<CR>
 nmap <Leader>b :CtrlPBuffer<CR>
-let g:ctrlp_use_caching = 0
+let g:ctrlp_max_files=30000
 let g:ctrlp_custom_ignore = 'tmp\|coverage\|log\|public\|bin\|node_modules\|DS_Store\|.git'
-let g:ctrlp_regexp = 1
 let g:ctrlp_reuse_window = 'NERD'
 let g:ctrlp_prompt_mappings = {
     \ 'AcceptSelection("e")': ['<cr>', '<c-y>', '<2-LeftMouse>'],
