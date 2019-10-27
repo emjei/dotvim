@@ -190,6 +190,7 @@ noremap <Right> <NOP>
 noremap <Up> <NOP>
 
 " Syntastic settings
+let g:syntastic_cucumber_checkers = [] " turns off cucumber file checking since it dry-runs cucumber and freezes VIM
 let g:syntastic_ruby_mri_exec = 'ruby'
 
 " I18n settings
