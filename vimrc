@@ -203,6 +203,5 @@ let g:indentLine_leadingSpaceEnabled = 1
 
 " These commands help me paste my yanked selection multiple times.
 " See https://superuser.com/questions/321547/how-do-i-replace-paste-yanked-text-in-vim-without-yanking-the-deleted-lines
-vnoremap p "0p
-vnoremap P "0P
-vnoremap y "0y
+vnoremap <leader>p "0p
+vnoremap <leader>P "0P
