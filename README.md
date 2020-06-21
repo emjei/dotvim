@@ -30,3 +30,7 @@ Also remove the bundle/<submodule_name> entry in .gitmodules file.
 ## Updating submodules
 
 	git submodule foreach git pull origin master
+
+## Notes
+
+* vim-snipmate depends on tlib_vim and vim-addon-mw-utils so please don't delete them (unless deleting all 3 plugins together).
