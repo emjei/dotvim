@@ -56,7 +56,7 @@
 	ignore = untracked
 [submodule "bundle/vim-rails"]
 	path = bundle/vim-rails
-	url = git://github.com/tpope/vim-rails.git
+	url = https://github.com/tpope/vim-rails.git
 	ignore = untracked
 [submodule "bundle/vim-better-whitespace"]
 	path = bundle/vim-better-whitespace
